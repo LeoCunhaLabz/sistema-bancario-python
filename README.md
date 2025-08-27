@@ -1,35 +1,43 @@
-# Sistema Bancário Python
+# Python Banking System
 
-Um sistema bancário simples desenvolvido em Python como parte do curso da DIO.
+A simple banking system developed in Python as part of the DIO course, with three versions showcasing different programming approaches.
 
-## Funcionalidades
+## Features
 
-- **Depositar**: Permite realizar depósitos na conta.
-- **Sacar**: Permite realizar saques com limite de R$ 500,00 e máximo de 3 saques por sessão.
-- **Extrato**: Exibe todas as movimentações realizadas e o saldo atual.
-- **Novo Usuário**: Cadastra um novo usuário no sistema.
-- **Nova Conta**: Cria uma nova conta bancária para um usuário existente.
-- **Listar Contas**: Exibe a lista de todas as contas cadastradas.
-- **Sair**: Encerra o programa.
+- **Deposit**: Make deposits to accounts
+- **Withdraw**: Make withdrawals with a limit of R$ 500.00 and maximum of 3 withdrawals per session
+- **Statement**: View all transactions and current balance
+- **New User**: Register a new user in the system
+- **New Account**: Create a new bank account for an existing user
+- **List Accounts**: Display all registered accounts
+- **Exit**: Close the program
 
-## Como usar
+## Versions
 
-1. Execute o arquivo `main_v2.py`.
-2. Escolha uma das opções do menu:
-   - `[d]` para depositar
-   - `[s]` para sacar
-   - `[e]` para ver o extrato
-   - `[nu]` para criar um novo usuário
-   - `[nc]` para criar uma nova conta
-   - `[lc]` para listar as contas
-   - `[q]` para sair
+### Version 1 (main_v1.py)
+- Basic procedural implementation
+- Single account with no user management
+- Simple transaction tracking
 
-## Requisitos
+### Version 2 (main_v2.py)
+- Improved with functions
+- Multiple user and account support
+- Better code organization
 
-- Python 3.x
+### Version 3 (main_v3.py)
+- Full object-oriented implementation
+- Class hierarchy (Client, Account, Transaction)
+- Abstract classes and interfaces
+- Proper encapsulation
+- Enhanced transaction history with timestamps
 
-## Como executar
+## How to Use
 
-```bash
-python main_v2.py
-```
+1. Run one of the versions:
+   ```bash
+   python main_v1.py
+   # or
+   python main_v2.py
+   # or
+   python main_v3.py
+   ```
